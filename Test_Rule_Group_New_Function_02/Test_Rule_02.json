@@ -1,0 +1,74 @@
+[
+    {
+        "id": "4adc0166fc864015a32b64b1033a95a3",
+        "family": "4adc0166fc864015a32b64b1033a95a3",
+        "name": "Test Change of Rule 02",
+        "description": "This is a test rule. I'm making a change to the rule description.",
+        "created_by": "dale.lichtenwalner@pfizer.com",
+        "created_on": "2024-04-19T15:33:52.515116023Z",
+        "modified_by": "1b98e7b39aaa48c8896c720620a3bda9",
+        "modified_on": "2024-04-19T15:33:52.515116023Z",
+        "enabled": true,
+        "deleted": false,
+        "platform_ids": null,
+        "direction": "IN",
+        "action": "ALLOW",
+        "address_family": "IP4",
+        "local_address": [
+            {
+                "address": "10.10.0.65"
+            }
+        ],
+        "remote_address": [],
+        "protocol": "6",
+        "local_port": [
+            {
+                "start": 81,
+                "end": 443
+            }
+        ],
+        "remote_port": [],
+        "icmp": null,
+        "monitor": {
+            "count": "1",
+            "period_ms": "3600000"
+        },
+        "fqdn_enabled": false,
+        "fqdn": "",
+        "fields": [
+            {
+                "name": "network_location",
+                "value": "",
+                "type": "set",
+                "values": [
+                    "ANY"
+                ]
+            },
+            {
+                "name": "image_name",
+                "value": "%SystemRoot%\\System32\\svchost.exe",
+                "type": "windows_path",
+                "values": []
+            },
+            {
+                "name": "service_name",
+                "value": "Dhcp",
+                "type": "string",
+                "values": []
+            }
+        ],
+        "version": 0,
+        "rule_group": {
+            "id": "0253116c90d543a5bcae6e6ce4ef5908",
+            "name": "Test Rule Group New Function 02",
+            "description": "This is a test description",
+            "created_by": "1b98e7b39aaa48c8896c720620a3bda9",
+            "created_on": "2024-04-19T15:33:52.515109295Z",
+            "modified_by": "1b98e7b39aaa48c8896c720620a3bda9",
+            "modified_on": "2024-04-19T15:33:52.515109295Z",
+            "enabled": true,
+            "policy_ids": [],
+            "platform": "windows"
+        }
+    }
+]
